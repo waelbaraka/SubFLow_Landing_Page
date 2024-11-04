@@ -1,0 +1,20 @@
+
+@font-face {
+  font-family: 'HelveticaNowDisplayBold';
+  src: url('fonts/HelveticaNowDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay-Medium';
+  src: url('fonts/HelveticaNowDisplay-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay-Regular';
+  src: url('fonts/HelveticaNowDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay-Light';
+  src: url('fonts/HelveticaNowDisplay-Light.ttf') format('truetype');
+}

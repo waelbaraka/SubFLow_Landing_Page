@@ -1,0 +1,152 @@
+.guide-nav{
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.button-container button {
+  border: 1px solid #ddd;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.button-container button.active {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 200px; /* Adjust as needed for consistent height */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-family: 'HelveticaNowDisplayBold', sans-serif;
+  color: #333;
+  min-height: 60px; /* Adjust this height as needed */
+  line-height: 1.2; /* Ensures text doesn't overflow */
+  margin-bottom: 0; /* Removes distance between <h1> and <p> */
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #333;
+  flex-grow: 1;
+  margin-bottom: 40px;
+  font-family: 'HelveticaNowDisplay-Light', sans-serif;
+}
+
+.card:first-child {
+  /* grid-column: span 3; */
+  background-image: linear-gradient(rgba(7, 6, 6, 0.8), rgba(0, 0, 0, 0.7)), url('../../assets/Cardbg.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.card:first-child h1  {
+  color: #dcdcdc ; /* Softer white */
+}
+.card:first-child p {
+  color: #e0e0e0; /* Light gray */
+}
+
+.card:nth-child(2),
+.card:nth-child(3) {
+  position: relative;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  margin-bottom: 0px;
+
+}
+
+.card .svg-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
+  /* opacity: 0.3; */
+}
+
+/* Responsive Breakpoints */
+@media screen and (max-width: 1024px) {
+  .card-container {
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 0px;
+  }
+
+  .card:first-child {
+      grid-column: span 2;
+      margin-bottom: 0px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .button-container button {
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+  }
+
+  .card-container {
+      grid-template-columns: 1fr;
+  }
+
+  .card:first-child {
+      grid-column: span 1;
+      margin-bottom: 0px;
+
+  }
+}

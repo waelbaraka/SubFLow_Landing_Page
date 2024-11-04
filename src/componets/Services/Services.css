@@ -1,0 +1,114 @@
+.panel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Place the   
+   image behind the content */
+  }
+  
+  /* Wrapper for Services Section */
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .panel {
+    flex: 1 1 30%;
+    max-width: 320px;
+    min-height: 450px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+  }
+  
+  .panel:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .panel h3 {
+    font-family: 'HelveticaNowDisplay', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .panel p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0 0 20px;
+  }
+  
+  /* Slide Section for Key Features */
+  .slide {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: rgba(1, 61, 71, 0.95);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: bottom 0.4s ease;
+    text-align: left;
+  }
+  
+  .panel:hover .slide {
+    bottom: 0; /* Slide up on hover */
+  }
+  
+  .slide h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #39cc62;
+    margin-bottom: 10px;
+  }
+  
+  .slide ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .slide ul li {
+    font-size: 13px;
+    padding: 8px 0;
+    color: #f0f0f0;
+    border-bottom: 1px solid #3e737b;
+  }
+  
+  .slide ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .slide ul li .fa {
+    color: #39cc62;
+    padding-right: 8px;
+  }
+  
+  @media (max-width: 992px) {
+    .panel {
+      flex: 1 1 45%; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .panel {
+      flex: 1 1 100%; /* Stack panels on smaller screens */
+    }
+  }

@@ -1,0 +1,63 @@
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Adds padding around the content */
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0 80%);
+  background-color: #f0f0f0; 
+}
+
+.section3-heading {
+  width: 90%; /* Make width flexible */
+  max-width: 1100px; /* Limit max width for larger screens */
+  font-size: 3rem; /* Base font size */
+  text-align: center;
+  line-height: 1.2; /* Adds spacing between lines for readability */
+  margin-top: 0; /* Remove double margin */
+}
+
+.section3-paragraph {
+  width: 80%; /* Make width flexible */
+  max-width: 800px; /* Limit width for readability */
+  font-size: 1.2rem; /* Base font size */
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.regular-text-heading, .bold-text-heading, .regular-text-paragraph, .bold-text-paragraph {
+  font-family: 'HelveticaNowDisplayRegular', sans-serif; 
+}
+
+.bold-text-heading, .bold-text-paragraph {
+  font-family: 'HelveticaNowDisplayBold', sans-serif;
+}
+.bold-text-heading {
+  margin-left: 10px; /* Adjust the value as needed */
+  line-height: 1.2;
+
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .section3-heading {
+    font-size: 2.5rem; /* Reduce heading size on tablets */
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  .section3-paragraph {
+    font-size: 1.1rem; /* Reduce paragraph size */
+    width: 90%; /* Increase width for readability */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section3-heading {
+    font-size: 2rem; /* Further scale down for mobile screens */
+  }
+
+  .section3-paragraph {
+    font-size: 1rem; /* Further reduce paragraph size */
+  }
+}

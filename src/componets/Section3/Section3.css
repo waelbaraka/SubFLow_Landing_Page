@@ -1,0 +1,65 @@
+/* Responsive CSS for Section3 */
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.section3-heading {
+  max-width: 100%;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section3-paragraph {
+  max-width: 100%;
+  font-size: 1.2rem;
+}
+
+/* Specific font styles */
+.regular-text-heading,
+.regular-text-paragraph {
+  font-family: 'HelveticaNowDisplayRegular', sans-serif;
+  font-weight: 300;
+}
+
+.bold-text-heading,
+.bold-text-paragraph {
+  font-family: 'HelveticaNowDisplayBold', sans-serif;
+  font-weight: 700;
+}
+
+/* Responsive breakpoints */
+@media screen and (min-width: 768px) {
+  .section3-heading {
+    max-width: 900px;
+    font-size: 3rem;
+  }
+
+  .section3-paragraph {
+    max-width: 80%;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section3-heading {
+    max-width: 1100px;
+    font-size: 3.5rem;
+  }
+
+  .section3-paragraph {
+    max-width: 70%;
+    font-size: 1.5rem;
+  }
+}
+
+/* Ensure text wrapping and responsiveness */
+.section3-heading span,
+.section3-paragraph span {
+  display: inline-block;
+  max-width: 100%;
+}

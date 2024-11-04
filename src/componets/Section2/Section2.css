@@ -1,0 +1,67 @@
+.section2-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.section2-item {
+    padding: 20px;
+    background-color: #fff;
+    width: 30%; /* Adjusts each section's width */
+}
+
+.section-heading {
+    flex: 1;
+    font-family: 'HelveticaNowDisplayBold', sans-serif;
+    font-size: 20px; /* Adjust as needed */
+}
+
+.combined-text {
+    font-family: 'HelveticaNowDisplay-Light', sans-serif;
+    font-size: medium; 
+    
+  }
+  
+  .bold-text {
+    font-family: 'HelveticaNowDisplayBold', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+
+  }
+  
+  .regular-text {
+    font-family: 'HelveticaNowDisplayRegular', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.5; 
+  }
+
+  .inline-svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px; /* Scales down to fit within the container */
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+.responsive-svg {
+    width: 300px; /* Scales down to fit within the container */
+    height: 250px;    /* Keeps the SVG’s aspect ratio */
+    margin-top: 30px;
+}
+
+.section-text {
+    flex: 2; /* Span across more space */
+}
+
+@media (max-width: 768px) {
+    .section2-container {
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    .section2-item {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
