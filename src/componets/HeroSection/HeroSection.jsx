@@ -103,19 +103,19 @@ const HeroSection = () => {
 
 
     <Section2 />
-    <Section3 />
     <section ref={guideNavRef} >
+    <Section3 />
+    </section>
     <GuideNav />
-    </section>
     <FAQ />
-    <Section5 />
     <section ref={servicesRef}>
+    <Section5 />
+    </section>
     <Services />
-    </section>
-    <BrandsBuilding />
     <section ref={joinCommunityRef}>
-    <ContactUs />
+    <BrandsBuilding />
     </section>
+    <ContactUs />
  
 
     </div>
