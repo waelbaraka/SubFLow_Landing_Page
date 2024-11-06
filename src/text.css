@@ -175,80 +175,38 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
 }
 
 
-/*  */
-/* Add keyframes for the wavy border light effect */
-@keyframes wavy-border {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 200% 50%;
-  }
-}
 
 .copy-email-button {
-  /* Your existing styles */
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  /* Positioning */
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
   z-index: 200;
+  
+  /* Dimensions */
   width: 320px;
   height: 64px;
+  
+  /* Layout */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  color: white;
-  letter-spacing: 0.5px;
-  background: linear-gradient(145deg, rgba(32, 32, 32, 0.95), rgba(23, 23, 23, 0.95));
-  border-radius: 16px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
-  cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   
-  /* Wavy light border effect */
-  overflow: hidden;
-}
-
-.copy-email-button::before {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: -1px;
-  right: -1px;
-  bottom: -1px;
-  border-radius: inherit;
-  padding: 2px;
-  background: linear-gradient(60deg, rgba(255, 0, 255, 0.5), rgba(0, 255, 255, 0.5), rgba(255, 0, 255, 0.5));
-  background-size: 200% 200%;
-  animation: wavy-border 4s linear infinite;
-  z-index: -1;
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-    /* Dotted background effect */
-    /* background-image: radial-gradient(rgb(17, 187, 122) 1px, transparent 1px); 
-    background-size: 18px 81px; /* Adjust dot size and spacing */
-  /*  background-blend-mode: overlay;  //Blends the dots with the background 
-    position: relative;
-    overflow: hidden; */
-}
-
-/* Hover state */
-.copy-email-button:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(145deg, rgba(38, 38, 38, 0.95), rgba(28, 28, 28, 0.95));
-  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.4), inset 0 0 0 1px rgba(255, 255, 255, 0.12);
-}
-
-/* Active state */
-.copy-email-button:active {
-  transform: translateY(1px);
-  background: linear-gradient(145deg, rgba(28, 28, 28, 0.95), rgba(20, 20, 20, 0.95));
+  /* Typography */
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  
+  /* Visual styling */
+  background: linear-gradient(to right, #ec4899, #9333ea);
+  border: none;
+  border-radius: 9999px;
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+  
+  /* Interaction */
+  cursor: pointer;
 }
 
 /* Icon styling */
@@ -258,24 +216,30 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
   width: 24px;
   height: 24px;
   display: inline-block;
-  opacity: 0.8;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effects */
+.copy-email-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(147, 51, 234, 0.4);
 }
 
 .copy-email-button:hover::after {
-  transform: rotate(6deg);
-  opacity: 1;
+  transform: rotate(12deg);
+}
+
+/* Active state */
+.copy-email-button:active {
+  transform: scale(0.95);
 }
 
 /* Focus state for accessibility */
 .copy-email-button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1), 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+  box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.4);
 }
 
-
-
-/*  */
 
 /* Tablet Breakpoint */
 @media (max-width: 1038px) {

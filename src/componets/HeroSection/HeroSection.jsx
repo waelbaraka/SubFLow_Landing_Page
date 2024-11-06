@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './HeroSection.css';
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/SubFlow_Logo.svg'
 import Section3 from '../Section3/Section3';
 import Section2 from '../Section2/Section2';
 import GuideNav from '../GuideNav/GuideNav';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ContactUs.css';
 import backgroundImage from '../../assets/contactbg.png';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/SubFlow_Logo.svg'
 
 const ContactUs = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
