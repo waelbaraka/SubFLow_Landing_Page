@@ -11,12 +11,12 @@
           card3: 'improve customer satisfaction, reduce response times, and enhance overall operational efficiency.freeing up agents to focus on more complex issues.',
         },
         predictiveAnalytics: {
-          card1: 'Our AI-powered sentiment analysis dives deep into your customers online conversations, capturing nuanced insights into their true emotions and opinions. This technology goes beyond simple positive or negative feedback, identifying subtle sentiments, tones, and contexts that reveal what customers love, what frustrates them, and what motivates their loyalty. By analyzing social media posts, reviews, and customer feedback in real-time.',
+          card1: 'Our AI-powered sentiment analysis dives deep into your customers online conversations, capturing nuanced insights into their true emotions and opinions.identifying subtle sentiments, tones, and contexts that reveal what customers love, what frustrates them, and what motivates their loyalty.',
           card2: 'Understand customer satisfaction, identify brand sentiment, and track public opinion in real-time.',
           card3: 'Reclaim time to focus on innovation, customer relationships, and business development.',
         },
         leadQualification: {
-          card1: 'Our AI assistants swiftly identify high-quality leads, analyzing vast amounts of data to pinpoint ready-to-buy prospects with precision. By examining behavioral patterns, engagement history, and demographic insights, the AI assistant distinguishes potential buyers from casual browsers. This process enables your sales team to focus their efforts on the most promising leads, reducing time spent on unqualified prospects',
+          card1: 'Our AI assistants swiftly identify high-quality leads, analyzing vast amounts of data to pinpoint ready-to-buy prospects with precision. By examining behavioral patterns, engagement history, and demographic insights, the AI assistant distinguishes potential buyers from casual browsers.',
           card2: 'Delegate outreach messages like emails and social media posts.Assign lead prioritization and report generation to virtual sales assistants.',
           card3: 'Aess each rep’s sales qualification skills with virtual coaches.Improve competitive intelligence.',
         },
