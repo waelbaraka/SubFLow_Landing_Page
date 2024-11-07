@@ -324,11 +324,7 @@ left: 0px;
     font-size: 16px;
 }
 
-.hero {
-  padding-bottom: 140px;
-  height: 80vh;
 
-}
 }
 
 
@@ -367,5 +363,12 @@ left: 0px;
       font-size: 12px;
       bottom: 0px;
       right: 40px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1600px) {
+  .hero {
+    padding-bottom: 40px;
+    height: 80vh;
   }
 }
