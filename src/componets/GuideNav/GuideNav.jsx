@@ -11,12 +11,12 @@
           card3: 'improve customer satisfaction, reduce response times, and enhance overall operational efficiency.freeing up agents to focus on more complex issues.',
         },
         predictiveAnalytics: {
-          card1: 'Our Al-powered sentiment analysis digs deep into your customers online conversations, revealing their true emotions and opinions.Know what they love, what they hate, and why they tick.',
+          card1: 'Our Al-powered sentiment analysis digs deep into your customers online conversations,Our Al-powered sentiment analysis digs deep into your customers online conversations, revealing their true emotions and opinions.Know what they love, what they hate, and why they tick.',
           card2: 'Understand customer satisfaction, identify brand sentiment, and track public opinion in real-time.',
           card3: 'Reclaim time to focus on innovation, customer relationships, and business development.',
         },
         leadQualification: {
-          card1: 'Our AI assistants Identifies Hot Leads Quickly pinpoints ready-to-buy prospects,by analyzing vast amounts of data. This allows you to prioritize your efforts and close deals faster',
+          card1: 'Our AI assistants Identifies Hot Leads Quickly pinpoints ready-to-buy prospects,Our AI assistants Identifies Hot Leads Quickly pinpoints ready-to-buy prospectsby analyzing vast amounts of data. This allows you to prioritize your efforts and close deals faster',
           card2: 'Delegate outreach messages like emails and social media posts.Assign lead prioritization and report generation to virtual sales assistants.',
           card3: 'Aess each rep’s sales qualification skills with virtual coaches.Improve competitive intelligence.',
         },
