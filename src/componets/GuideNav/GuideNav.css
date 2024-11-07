@@ -53,7 +53,7 @@
   padding: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-height: 400px; /* Adjust as needed for consistent height */
+  min-height: 200px; /* Adjust as needed for consistent height */
 }
 
 .card:hover {
@@ -126,7 +126,6 @@
   .card:first-child {
       grid-column: span 2;
       margin-bottom: 0px;
-      min-height: 200px;
 
   }
 }
@@ -150,11 +149,6 @@
   .card:first-child {
       grid-column: span 1;
       margin-bottom: 0px;
-      min-height: 200px;
 
-  }
-
-  .card p {
-    font-size: 1.4rem; /* Adjust as needed for readability */
   }
 }

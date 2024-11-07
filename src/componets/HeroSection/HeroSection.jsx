@@ -70,15 +70,14 @@ const HeroSection = () => {
             <br/>
             <span>Automation Solutions.</span>
           </h1>
-          
         </div>
   
 
-        <p class="hero-paragraph">
+
+<p class="hero-paragraph">
                 Automate time-consuming tasks, streamline workflows,
                  and Reclaim your focus with your own intelligent Al. 
-          </p>
-
+     </p>
      <button class="copy-email-button" onClick={handleCopyEmail}
      >
     {/* <img src={stars} alt="stars Icon" className="stars-icon" /> */}
