@@ -54,7 +54,7 @@ const HeroSection = () => {
 
           <li   onClick={() => guideNavRef.current?.scrollIntoView({
             behavior: 'smooth'
-          })}><a className="blur-button"  > Use Case </a></li>
+          })}><a className="blur-button">Case Study</a></li>
 
           <li   onClick={() => servicesRef.current?.scrollIntoView({
             behavior: 'smooth'
