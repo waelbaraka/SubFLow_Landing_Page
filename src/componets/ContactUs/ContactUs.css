@@ -3,7 +3,7 @@
 .community-section {
   border-radius: 25px;
   position: relative;
-  min-height: 100vh;
+  min-height: fit-content;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -129,6 +129,8 @@
   .contact-container {
     width: 100%;
     padding: 1.5rem;
+    margin-top: 10rem;
+
   }
 }
 

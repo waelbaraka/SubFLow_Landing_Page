@@ -112,7 +112,7 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
 
 .copy-email-button {
   /* Your existing styles */
-  position: fixed;
+  position: absolute;
   bottom: 20px;
   right: 20px;
   z-index: 200;
@@ -244,14 +244,13 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
 
   .copy-email-button {
     /* Positioning */
-    position: fixed;
     bottom: 10px;
     right: 30px;
     z-index: 200;
     
     /* Dimensions */
-    width: 190px;
-    height: 45px;
+    width: 290px;
+    height: 65px;
   
     font-size: 10px;
     font-weight: 400;
@@ -271,6 +270,13 @@ left: 0px;
 }
 }
 @media (max-width: 768px) {
+
+  .hero {
+    height: 85vh;
+    min-height: 600px;
+    padding-top: 20px;
+  
+  }
   .navbar {
     flex-direction: column; /* Stack links vertically on small screens */
     align-items: flex-start; /* Align links to the left on small screens */
@@ -300,12 +306,12 @@ left: 0px;
   
   .copy-email-button {
     bottom: 10px;
-    right: 30px;
+    right: 6px;
     z-index: 200;
     
     /* Dimensions */
-    width: 180px;
-    height: 45px;
+    width: 280px;
+    height: 60px;
   
     font-size: 10px;
     font-weight: 400;
@@ -329,8 +335,9 @@ left: 0px;
 /* Small Mobile Breakpoint */
 @media (max-width: 480px) {
   .hero {
-      padding-bottom: 140px;
       height: 80vh;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
 
   }
 
@@ -356,10 +363,55 @@ left: 0px;
 }
 
   .copy-email-button {
-      width: 180px;
-      height: 40px;
+      width: 250px;
+      height: 50px;
       font-size: 12px;
-      bottom: 0px;
-      right: 40px;
+      bottom: 10px;
+      right: 10px;
   }
 }
+
+
+
+/* Media query for screens between 721px and 1600px width */
+@media (min-width: 791px) and (max-width: 1620px) {
+  .hero {
+    height: 80vh;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+.hero-heading {
+    font-size: 4.8rem;
+  
+}
+
+.nav-links {
+    gap: 5px;
+}
+
+.nav-links a {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+.hero-paragraph {
+  position: relative;
+  width: auto;
+  max-width: 70%;
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+
+}
+
+.copy-email-button {
+    width: 450px;
+    height: 80px;
+    font-size: 30px;
+    bottom: 40px;
+    right: 40px;
+}
+
+}
+

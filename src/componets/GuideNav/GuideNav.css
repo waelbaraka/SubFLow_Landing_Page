@@ -126,6 +126,7 @@
   .card:first-child {
       grid-column: span 2;
       margin-bottom: 0px;
+      min-height: 200px;
 
   }
 }
@@ -149,6 +150,7 @@
   .card:first-child {
       grid-column: span 1;
       margin-bottom: 0px;
+      min-height: 200px;
 
   }
 }
