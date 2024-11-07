@@ -6,7 +6,7 @@ const BrandsBuilding = () => {
     <div className="brands-building">
       <div className="section-one">
         <h1>
-        Trusted by Brands Building Meaningful  <span className="bold-text">Customer Connections  ✦</span> 
+        Trusted Brand. Building Meaningful <br/> <span className="bold-text">Customer Connections  ✦</span> 
         </h1>
       </div>
       

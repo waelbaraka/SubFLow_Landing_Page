@@ -10,12 +10,6 @@ import BrandsBuilding from '../BrandsBuilding/BrandsBuilding';
 import ContactUs from '../ContactUs/ContactUs';
 import Services from '../Services/Services';
 
-// import stars from '../../assets/stars.svg'
-// import product from '../../assets/product.svg'
-// import product2 from '../../assets/product2.svg'
-// import product3 from '../../assets/product3.svg'
-// import product4 from '../../assets/product4.svg'
-// import Btn from '../btn';
 
 const HeroSection = () => {
   const [copied, setCopied] = useState(false);
@@ -77,22 +71,12 @@ const HeroSection = () => {
             <span>Automation Solutions.</span>
           </h1>
         </div>
-
-        {/* <div class="card">
-  <div class="card-content">
-    </div>
-  <div class="image-container">
-    <img src={product} alt="Product 2" class="product-image" />
-    <img src={product2} alt="Product 3" class="product-image2" />
-    <img src={product3} alt="Product 3" class="product-image3" />
-    <img src={product4} alt="Product 3" class="product-image4" />
-  </div>
-</div>   */}
+  
 
 
 <p class="hero-paragraph">
                 Automate time-consuming tasks, streamline workflows,
-                 and reclaim your focus with your own intelligent Al. 
+                 and Reclaim your focus with your own intelligent Al. 
      </p>
      <button class="copy-email-button" onClick={handleCopyEmail}
      >

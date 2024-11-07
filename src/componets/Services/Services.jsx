@@ -26,7 +26,7 @@ const Services = () => {
               <li><i className="fa fa-check"></i>Efficient Document Automation</li>
               <li><i className="fa fa-check"></i>Reliable Data Capture and Validation</li>
               <li><i className="fa fa-check"></i>Data-Driven Decision Making</li>
-              <li><i className="fa fa-check"></i>Automation Assistants</li>
+              <li><i className="fa fa-check"></i>Automation AI Assistants</li>
             </ul>
           </div>
         </div>

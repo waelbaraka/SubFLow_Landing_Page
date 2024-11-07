@@ -33,8 +33,12 @@ const FAQ = () => {
       answer: "SubFLow's AI solutions are designed to be versatile and adaptable, seamlessly integrating with a wide range of e-commerce platforms. Whether you're using Shopify, WooCommerce, custom builds on WordPress, Wix, Squarespace, or BigCommerce, our technology is capable of enhancing your e-commerce experience. Our goal is to ensure that no matter what platform your online store is built  on, you can leverage the power of AI to drive growth and improve customer satisfaction.",
     },
     {
+      question: "What is the typical implementation timeline for an AI automation project?",
+      answer: "The typical implementation timeline for an AI automation project can vary depending on the complexity of the project. However, for many projects, we can typically complete the implementation process within 3-4 weeks.",
+    },
+    {
       question: "What are the pricing options?",
-      answer: "We offer various plans, including a free trial, to fit different business sizes.",
+      answer: "Our pricing is customized to fit your unique business needs. We don't have a one-size-fits-all approach.Factors that influence pricing include:Project complexity Required level of customization Ongoing support and maintenance needs",
     },
   ];
 

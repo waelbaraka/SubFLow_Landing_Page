@@ -2,7 +2,7 @@
 import React from 'react';
 import './Section2.css'; // Import CSS for styling
 import CircleShape from '../../assets/circlershape.svg';
-import CircleFlow from '../../assets/circlerflow.svg';
+import CircleFlow from '../../assets/Flow_with_bg.svg';
 
 const Section2 = () => {
     return (

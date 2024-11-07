@@ -1,6 +1,8 @@
 import React from 'react';
 import './Section3.css'; // Import CSS for styling
 
+
+
 const Section3 = () => {
   return (
     <section className="section3">
