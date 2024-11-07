@@ -16,7 +16,7 @@
           card3: 'Reclaim time to focus on innovation, customer relationships, and business development.',
         },
         leadQualification: {
-          card1: 'Our AI assistants Identifies Hot Leads Quickly pinpoints ready-to-buy prospects',
+          card1: 'Our AI assistants Identifies Hot Leads Quickly pinpoints ready-to-buy prospects,by analyzing vast amounts of data. This allows you to prioritize your efforts and close deals faster',
           card2: 'Delegate outreach messages like emails and social media posts.Assign lead prioritization and report generation to virtual sales assistants.',
           card3: 'Aess each rep’s sales qualification skills with virtual coaches.Improve competitive intelligence.',
         },
@@ -31,7 +31,7 @@
           card3: 'Eases the workload of HR professionals, allowing them to focus on sourcing top talent and enhancing organizational performance.',
         },
         legal: {
-          card1: 'AI automates the review and analysis of legal documents, extracting pertinent information quickly, reducing time, and minimizing human error ',
+          card1: 'AI automates the review and analysis of legal documents, extracting pertinent information quickly, reducing time, and minimizing human error,with unparalleled precision. Boost efficiency and gain a competitive edge ',
           card2: 'AI automates contract creation and management, ensuring accuracy and compliance and reducing the risk of overlooked terms.AI improve legal research efficiency by finding relevant case law and statutes.',
           card3: 'Allowing Lawyers to focus on strategic thinking, client relationships, and business development. This, in turn, can lead to increased productivity, higher revenue, and greater career satisfaction.',
         },

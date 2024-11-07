@@ -70,14 +70,14 @@ const HeroSection = () => {
             <br/>
             <span>Automation Solutions.</span>
           </h1>
-          <p class="hero-paragraph">
-                Automate time-consuming tasks, streamline workflows,
-                 and Reclaim your focus with your own intelligent Al. 
-          </p>
+          
         </div>
   
 
-
+        <p class="hero-paragraph">
+                Automate time-consuming tasks, streamline workflows,
+                 and Reclaim your focus with your own intelligent Al. 
+          </p>
 
      <button class="copy-email-button" onClick={handleCopyEmail}
      >
