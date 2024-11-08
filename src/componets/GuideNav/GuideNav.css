@@ -162,8 +162,5 @@
     line-height: 1.4;
   }
 
-  .card:nth-child(2) p,
-.card:nth-child(3) p {
-  font-size: 2.1rem; /* Adjust the size as needed */
-}
+
 }
