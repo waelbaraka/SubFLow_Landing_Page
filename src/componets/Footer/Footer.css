@@ -1,0 +1,103 @@
+:root {
+  --rhino: #323b40;
+  --rhinoMid: #4f585e;
+  --teal: #0096a1;
+  --blueGlow: rgba(72, 148, 255, 1); /* Soft blue glow compatible with white background */
+  --red: #fc625c;
+  --amber: #fdbc40;
+  --green: #34c748;
+  --offWhite: #e9eaea;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #f1f1f1c0  ;  
+  color: #000; /* Bright white color for text */
+}
+
+
+/* Social media links container */
+.social-media-links {
+  text-align: center;
+}
+
+/* Address and email container */
+.footer-info {
+  display: flex;
+  flex-direction: column; /* Stack the address and email vertically */
+  align-items: flex-end; /* Align them to the right */
+  color: #fff; /* Bright white color for text */
+}
+
+/* Styling for the address and email */
+.footer-info a {
+  color: #fff; /* Bright white color for text */
+  text-decoration: none;
+  margin: 5px 0;
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+
+.social-media-links {
+  padding: 4px 0;
+  text-align: center;
+}
+
+.social-media-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media-links a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  border-radius: 4px;
+  transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+  position: relative;
+}
+
+/* Hover effect with bottom glow */
+.social-media-links a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px -5px var(--blueGlow), 0px 6px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Icon */
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Icon glow effect */
+.glow path {
+  fill: var(--teal);
+  transition: fill 0.2s ease-in;
+}
+
+.social-media-links a:hover .glow path {
+  fill: var(--blueGlow);
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    align-items: center; /* Center the items */
+  }
+
+  .footer-info {
+    align-items: center; /* Center the text on smaller screens */
+  }
+}

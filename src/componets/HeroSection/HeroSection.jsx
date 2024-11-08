@@ -9,6 +9,7 @@ import Section5 from '../Section5/Section5';
 import BrandsBuilding from '../BrandsBuilding/BrandsBuilding';
 import ContactUs from '../ContactUs/ContactUs';
 import Services from '../Services/Services';
+import Footer from '../Footer/Footer';
 
 
 const HeroSection = () => {
@@ -99,6 +100,7 @@ const HeroSection = () => {
     <BrandsBuilding />
     </section>
     <ContactUs />
+    <Footer />
  
 
     </div>
