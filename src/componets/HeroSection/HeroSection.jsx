@@ -85,7 +85,6 @@ const HeroSection = () => {
   </button>
     </section>
 
-
     <Section2 />
     <section ref={guideNavRef} >
     <Section3 />

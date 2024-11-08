@@ -204,14 +204,15 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
 /* Tablet Breakpoint */
 @media (max-width: 1038px) {
   .hero-heading {
-      font-size: 3rem;
+      font-size: 4rem;
   }
 
   .hero-paragraph {
       width: auto;
       max-width: 400px;
       left: 50px;
-      bottom: 140px;
+      bottom: 10px;
+
   }
 
   .copy-email-button {
@@ -228,7 +229,7 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
 @media (max-width: 900px) {
 
   .hero {
-    background-image: url('../../assets/herobackground.png');
+    background-image: url('../../assets/bgfull.png');
     background-size: cover;
     background-position: bottom right;
     height: 100vh;
@@ -250,7 +251,7 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
     z-index: 200;
     
     /* Dimensions */
-    width: 190px;
+    width: 240px;
     height: 45px;
   
     font-size: 10px;
@@ -267,7 +268,7 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
 width: 450px;
 position: absolute;
 bottom:  0px; 
-left: 0px; 
+left: 30px; 
 }
 }
 @media (max-width: 768px) {
@@ -295,7 +296,8 @@ left: 0px;
 
   .hero-heading {
     font-size: 2.5rem; /* Reduce font size for smaller screens */
-    text-align: center; /* Center the heading on smaller screens */
+    text-align: left; /* Center the heading on smaller screens */
+
   }
   
   .copy-email-button {
@@ -317,11 +319,10 @@ left: 0px;
   .hero-paragraph {
     position: relative;
     width: auto;
-    max-width: 90%;
-    left: 20px;
+    left: 40px;
     bottom: 0;
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
 
@@ -361,7 +362,7 @@ left: 0px;
       width: 180px;
       height: 40px;
       font-size: 12px;
-      bottom: 0px;
+      bottom: 10px;
       right: 40px;
   }
 }
