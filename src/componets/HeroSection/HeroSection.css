@@ -232,7 +232,7 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
     background-image: url('../../assets/bgfull.png');
     background-size: cover;
     background-position: bottom right;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -246,12 +246,12 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
   .copy-email-button {
     /* Positioning */
     position: fixed;
-    bottom: 10px;
+    bottom: 25px;
     right: 30px;
     z-index: 200;
     
     /* Dimensions */
-    width: 240px;
+    width: 260px;
     height: 45px;
   
     font-size: 10px;
