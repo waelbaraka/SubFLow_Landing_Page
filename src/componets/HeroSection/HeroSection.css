@@ -225,7 +225,6 @@ font-family: 'HelveticaNowDisplay-Light', sans-serif;
 
 
 
-/* Optional: Dark mode support */
 @media (max-width: 900px) {
 
   .hero {
@@ -334,7 +333,7 @@ left: 30px;
 @media (max-width: 480px) {
   .hero {
       padding-bottom: 140px;
-      height: 80vh;
+      height: 60vh;
 
   }
 
