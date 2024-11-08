@@ -78,7 +78,6 @@
   line-height: 1.6;
   color: #333;
   flex-grow: 1;
-  margin-bottom: 40px;
   font-family: 'HelveticaNowDisplay-Light', sans-serif;
   max-width: 100%; /* Prevents stretching on mobile */
   word-wrap: break-word; /* Ensures long words break to fit the screen */
@@ -86,7 +85,7 @@
 
 .card:first-child {
   /* grid-column: span 3; */
-  background-image: linear-gradient(rgba(7, 6, 6, 0.6), rgba(0, 0, 0, 0.5)), url('../../assets/Cardbg.png');
+  background-image: linear-gradient(rgba(7, 6, 6, 0.6), rgba(0, 0, 0, 0.5)), url('../../assets/Cardbg1.png');
   background-size: cover;
   background-position: center;
   color: white;

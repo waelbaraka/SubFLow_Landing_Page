@@ -75,6 +75,7 @@
             <h1>Save hours every week</h1>
             <p>{cardContents[activeButton]?.card1}</p>
             </div>
+            <div className='space'></div>
           </div>
          
           <div className="card">
