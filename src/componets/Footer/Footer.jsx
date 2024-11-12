@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import linkedin from '../../assets/linkedin.svg';
-import facebook from '../../assets/facebook.svg';
+// import linkedin from '../../assets/linkedin.svg';
+// import facebook from '../../assets/facebook.svg';
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         <p>Address: Dubai, UAE</p>
       </div>
 
-      <div className="social-media-links">
+      {/* <div className="social-media-links">
         <ul>
           <li>
             <a href="https://www.linkedin.com/company/subflowtech" aria-label="linkedin" target="_blank">
@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
 
      
     </footer>
